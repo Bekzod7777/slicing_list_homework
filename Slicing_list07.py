@@ -7,4 +7,8 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    if n<0:
+        return list1[len(list1)-1::n]
+    else:
+        return list1[0:len(list1):n]
+
