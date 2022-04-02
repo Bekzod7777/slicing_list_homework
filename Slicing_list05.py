@@ -9,4 +9,3 @@ def main(list1,n,k):
         list: return answer.
     """
     return  list1[n:k+1]
-
